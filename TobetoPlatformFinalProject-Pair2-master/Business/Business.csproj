@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="7.1.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\City\Request\" />
+    <Folder Include="Dtos\City\Response\" />
+    <Folder Include="Dtos\SyncCourse\Request\" />
+    <Folder Include="Dtos\SyncCourse\Response\" />
+    <Folder Include="Dtos\SyncCourseContent\Request\" />
+    <Folder Include="Dtos\SyncCourseContent\Response\" />
+    <Folder Include="Dtos\Survey\Request\" />
+    <Folder Include="Dtos\Survey\Response\" />
+    <Folder Include="Dtos\AsyncCourseDepartment\Request\" />
+    <Folder Include="Dtos\AsyncCourseDepartment\Response\" />
+    <Folder Include="Dtos\Category\Request\" />
+    <Folder Include="Dtos\Category\Response\" />
+    <Folder Include="Dtos\Certificate\Response\" />
+    <Folder Include="Dtos\SocialMedia\Request\" />
+    <Folder Include="Dtos\SocialMedia\Response\" />
+    <Folder Include="Dtos\SocialMediaName\Request\" />
+    <Folder Include="Dtos\SocialMediaName\Response\" />
+  </ItemGroup>
+
+</Project>
